@@ -1,0 +1,20 @@
+{
+    "name": "kennethinkum/countries-and-states",
+    "description": "A laravel package to fetch and store list of countries and their states/regions, including country flag images and country codes in your database without making API calls.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kennethinkum\\CountriesAndStates\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kenneth Ekow Inkum",
+            "email": "xanthosoma1989@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^9.2"
+    }
+}
